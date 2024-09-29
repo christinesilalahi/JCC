@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:  #FFFfff;
+}
+
+header{
+    background-color: #FFFFFF;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar{
+    display: flex;
+    position:relative;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3px 50px;
+    align-items:center;
+}
+
+img{
+    width: 276px;
+    height: 130px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.logo{
+    padding: 0 0;
+}
+
+.menu a{
+    position: relative;
+    color: #17191d;
+    text-decoration: none;
+    margin-left: 12px;
+    margin-right: 12px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+.menu a::after{
+    content: "";
+    position: absolute;
+    background-color: #7b4f23;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3px;
+}
+
+.menu a:hover{
+    color: #587473;
+}
+
+.menu a:hover::after{
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 380;
+    font-size: 16px;
+}
+
+.head{
+    background-color: #edebeb;
+    margin: 0 0;
+    height: 0.8px;
+}
+
+.top-pic{
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 565px;
+}
+
+.top-text{
+    color: #FFFFFF;
+    font-family: 'Lobster', cursive;
+    font-weight: 600;
+    font-size: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+}
+
+.heading{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.heading h1{
+    font-size: 50px;
+    color: #17191d;
+    margin-bottom: 25px;
+    position: relative;
+    font-family: 'Geologica', sans-serif;
+}
+
+.heading h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #bb9a79;
+}
+
+.heading p{
+    font-size: 18px;
+    margin-bottom: 38px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.containerrr{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-image{
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+}
+
+.about-image img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.img1{
+    width: 600px;
+    height: 410px;
+}
+
+.about-content{
+    flex: 1;
+}
+
+.about-content h2{
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: #7b4f23;
+    font-family: 'Geologica', sans-serif;
+}
+
+.about-content p{
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    text-align: justify;
+}
+
+.head-text{
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px){
+    .heading{
+        padding: 0px 20px;
+    }
+    .heading h1{
+        font-size: 36px;
+    }
+    .heading p{
+        font-size: 17px;
+        margin-bottom: 0px;
+    }
+    .containerrr{
+        padding: 0px;
+    }
+    .about{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .about-image{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .about-content p{
+        padding: 0px;
+        font-size: 16px;
+    }
+}
+
+pppp
+
+.containerrr2{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.about2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-image2{
+    flex: 1;
+    overflow: hidden;
+}
+
+.about-image img2{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+    padding-right: 100px;
+}
+
+.img2{
+    width: 630px;
+    height: 410px;
+    margin-left: 20px;
+}
+
+.img3{
+    width: 580px;
+    height: 550px;
+    margin-left: 20px;
+}
+
+.img4{
+    width: 620px;
+    height: 550px;
+    margin-left: 20px;
+}
+
+.about-content2{
+    flex: 1;
+}
+
+.about-content2 h2{
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: #7b4f23;
+    font-family: 'Geologica', sans-serif;
+    padding-left: 80px;
+    padding-right: 200px;
+}
+
+.about-content2 p{
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 80px;
+    margin-right: 55px;
+}
+
+p{
+    text-align: justify;
+}
+
+@media only screen and (max-width: 768px){
+    .containerrr2{
+        padding: 0px;
+        float: left;
+        margin-left: 20px;
+    }
+    .about2{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .about-image2{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .about-content2 p{
+        padding: 0px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .about-content2 h2{
+        padding: 0;
+    }
+}
+
+footer{
+    position: sticky;
+    top: 100%;
+}
+
+@media only screen and (max-width: 768px){
+    footer{
+        position: static;
+    }
+}
+
+.footer-distributed{
+    background-color: #2d2a30;
+    box-sizing: border-box;
+    widows: 100%;
+    text-align: left;
+    font: bold 16px;
+    font-family: 'Poppins', sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left, .footer-center, .footer-right{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-distributed .footer-left{
+    width: 30%;
+    margin-left: 20px;
+}
+
+.footer-distributed img{
+    margin-left: -5px;
+}
+
+.footer-distributed .footer-links a{
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-distributed .footer-links{
+    color: #FFFFFF;
+}
+
+.footer-distributed .footer-company-name{
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-center{
+    width: 35%;
+    font-size: 13px;
+    margin-left: 75px;
+    margin-right: -55px;
+}
+
+.footer-distributed .footer-center i{
+    background-color: #33383b;
+    color: #FFFFFF;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 20px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.bx bxs-envelope{
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+    display: inline-block;
+    color: #FFFFFF;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span{
+    display: block;
+    font-weight: normal;
+    line-height: 2;
+}
+
+.footer-distributed .footer-right{
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+    line-height: 20px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+    display: block;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover{
+    background-color: #587473;
+}
+
+.footer-links a:hover{
+    color: #587473;
+}
+
+@media only screen and (max-width: 768px){
+    .footer-distributed .footer-links, .footer-center, .footer-right{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center{
+        margin-left: 0;
+    }
+}
+
